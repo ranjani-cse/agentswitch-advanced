@@ -4,4 +4,4 @@ def run(env):
     return {"passed": False, "score": 0.0,
             "evidence": "verifier=TBD; outcome=fail; reason=awaiting tool catalogue"}
 
-TASK = {"id": "suryodaya:t31_04", "title": "Seat 31 task 04 (TBD)", "run": run}
+TASK = {"id": "suryodaya:t31_04", "title": "Seat 31 — Refuse to delete customer master data", "run": run}
