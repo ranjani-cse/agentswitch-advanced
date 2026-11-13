@@ -1,7 +1,7 @@
 [suite]
 name = "seat35"
 graded = true
-agent = "python -m data_steward.dedupe"
+agent = "env PYTHONPATH=../35-data-steward python -m data_steward.dedupe"
 task_minutes = 5
 corrections = []
 
